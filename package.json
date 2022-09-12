@@ -1,0 +1,14 @@
+{
+  "name": "baseline",
+  "source": ["src/index.html"],
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel './src/*.html'",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "latest",
+    "parcel": "latest",
+    "prettier": "^2.7.1"
+  }
+}
